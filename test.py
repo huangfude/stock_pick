@@ -1,3 +1,4 @@
 import tushare as ts
-df = ts.get_stock_basics()
-print(len(df))
+stock_info = ts.get_hist_data('600848') #一次性获取全部日k线数据
+
+
